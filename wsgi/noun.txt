@@ -15,4 +15,11 @@ alpaca
 soup
 bread
 toast
+head
+brochure
+catalog
+appletini
+fitter
+apple
+sauce
 
