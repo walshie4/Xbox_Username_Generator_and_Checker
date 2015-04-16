@@ -1,0 +1,23 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>Xbox Live Username Generator</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='normalize.css') }}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='skeleton.css') }}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='landing.css') }}"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1 class="center padded">Xbox Live Username Generator</h1>
+                <h3 class="center padded">{{ value }}</h3>
+                <a href='/'>
+                    <button id="home" class="primary-button">
+                        Home
+                    </button>
+                </a>
+            </div>
+        </div> 
+    </body>
+</html>
+
