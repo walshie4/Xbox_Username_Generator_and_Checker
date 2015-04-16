@@ -14,8 +14,8 @@ def check_name(API_KEY, name):
         print "Status code " + str(status) + " was returned. This is unexpected."
 
 def gen_name():
-    adjective = random_line('wsgi/adj.txt').strip()
-    noun = random_line('wsgi/noun.txt').strip().title().replace(' ','')
+    adjective = random_line('adj.txt').strip()
+    noun = random_line('noun.txt').strip().title().replace(' ','')
     return adjective + noun
 
 def random_line(filename):
