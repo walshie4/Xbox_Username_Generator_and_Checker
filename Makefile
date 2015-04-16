@@ -1,6 +1,6 @@
-.PHONY: clean, pull, push, reqs, update
+.PHONY: clean, pull, push, reqs, update, run, test
 clean:
-	rm -rf *.pyc
+	rm -rf wsgi/*.pyc
 pull:
 	git pull origin master
 push:
@@ -9,3 +9,7 @@ push:
 update: pull push
 reqs:
 	pip freeze > requirements.txt
+run: test
+test:
+	python wsgi/xboxutil.py
+
