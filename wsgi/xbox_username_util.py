@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import requests
 import random
+import os
 
 def check_name(API_KEY, name):
     name = name.strip()
@@ -21,5 +22,5 @@ def gen_name():
 def random_line(filename):
     line = "#"
     while line.startswith('#'):
-        line = random.choice(list(open(filename)))
+        line = random.choice(list(open(os.path.join(os.path.dirname(__file__),filename))))
     return line
