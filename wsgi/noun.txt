@@ -1,0 +1,18 @@
+#A list of nouns to be used in name generation
+#any line starting with a '#' will not be included
+cat
+dog
+wolf
+potato
+horse
+train
+caboose
+pork chop
+kumquat
+albatross
+aardvark
+alpaca
+soup
+bread
+toast
+
