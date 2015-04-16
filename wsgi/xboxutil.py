@@ -3,7 +3,7 @@
 import xbox_username_util as util
 from flask import Flask, render_template, request
 app = Flask(__name__)
-app.debug = True
+#app.debug = True
 
 API_KEY = "4d41502f2f9cd9ec016ea564bac1e3ae9e82db4a"
 
