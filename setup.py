@@ -6,5 +6,5 @@ setup(name='xboxUsernameUtil',
       author='Adam Walsh',
       author_email='adamwalsh14@gmail.com',
       url='',
-      install_requires=['Flask==0.10.1'],
+      install_requires=['Flask==0.10.1, requests==2.6.0'],
      )
