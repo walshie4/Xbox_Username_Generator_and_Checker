@@ -22,4 +22,14 @@ appletini
 fitter
 apple
 sauce
+cherry
+train
+beer
+bear
+turnip
+sausage
+rat
+pot belly pig
+pig
+horse
 
