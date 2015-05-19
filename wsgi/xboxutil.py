@@ -24,6 +24,7 @@ def landing():
 def random_username():
     while True:
         name = util.gen_name()
+        print name
         if util.check_name(API_KEY, name):
             break
         else:
