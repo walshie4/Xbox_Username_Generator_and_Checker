@@ -19,7 +19,7 @@ head
 brochure
 catalog
 appletini
-fitter
+fritter
 apple
 sauce
 cherry
@@ -31,5 +31,14 @@ sausage
 rat
 pot belly pig
 pig
-horse
+cow
+rainbow
+lamp
+tub
+fruit
+cake
+banana
+peach
+rhino
+hippo
 
