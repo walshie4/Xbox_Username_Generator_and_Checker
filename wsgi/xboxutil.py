@@ -26,6 +26,8 @@ def random_username():
         name = util.gen_name()
         if util.check_name(API_KEY, name):
             break
+        else:
+            print "random username taken...trying again"
     result = "The random username " + name + " is available!"
     return render_template('result.html', value=result)
 #/Flask routes
